@@ -26,7 +26,7 @@ import java.nio.Buffer;
 public class OutputStreamWriterDemo02 {
     public static void main(String[] args) throws Exception {
         // 1、定义一个字节输出流
-        OutputStream os = new FileOutputStream("io-app2/src/out03.txt");
+        OutputStream os = new FileOutputStream("introduct-14/src/out03.txt");
 
         // 2、把原始的字节输出流转换成字符输出流
         // Writer osw = new OutputStreamWriter(os); // 以默认的UTF-8写字符出去 跟直接写FileWriter一样
